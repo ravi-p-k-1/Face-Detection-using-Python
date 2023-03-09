@@ -1,0 +1,24 @@
+The framework required for running this project on your local machine is as follows:
+
+1. Modules required:
+    -Open-cv(cv2)
+    -face_recognition
+    -numpy
+    -os
+    -pandas
+    -datetime
+    -streamlit
+    
+2. There might be some problem regarding importing of face_recognition library. To solve that problem 
+   first we would need to install the dlib wheel on our system. This dlib wheel will vary according to
+   python version that is present on our computer. 
+   For python versions 3.9:
+   Install dlib from the given github repository.
+   Link:https://github.com/shashankx86/dlib_compiled
+   
+   For python version 3.10 use this command in your command prompt:
+   pip install https://github.com/jloh02/dlib/releases/download/v19.22/dlib-19.22.99-cp310-cp310-win_amd64.whl
+   
+   After installing dlib module,install cmake module followed by 
+   After that install cmake module.
+   
